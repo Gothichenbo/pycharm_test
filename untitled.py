@@ -34,6 +34,7 @@ class Ui_Dialog(object):
         self.checkBox.setObjectName("checkBox")
 
 
+
         self.retranslateUi(Dialog)
         self.buttonBox.accepted.connect(Dialog.accept)
         self.buttonBox.rejected.connect(Dialog.reject)
