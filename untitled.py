@@ -33,6 +33,7 @@ class Ui_Dialog(object):
         self.checkBox.setGeometry(QtCore.QRect(310, 150, 88, 22))
         self.checkBox.setObjectName("checkBox")
 
+
         self.retranslateUi(Dialog)
         self.buttonBox.accepted.connect(Dialog.accept)
         self.buttonBox.rejected.connect(Dialog.reject)
